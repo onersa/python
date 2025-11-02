@@ -9,18 +9,20 @@
 
 # print(f"Hello, {full_name}. Welcome to the Python class")
 
-# author = "Albert Einstein"
-# quote = f"{author} once said \"A person who never made"
+# author = "albert einstein"
+# quote = f"{author.title()} once said \"A person who never made"
 # quote += " a mistake never tried anything new\""
-# # quote += " tried anything new\""
 # print(quote)
 
+# USING STRIP() LSTRP() RSTRIP()
 # first_name = "vusi   "
 # last_name = "\tmolapisi"
 # full_name = first_name.rstrip() + " " +  last_name.lstrip()
 # print(full_name)
 
+# REMOVING USING REMOVEPREFIX() AND REMOVESUFFIX() AND REPLACE()
 my_url = "https://www.bokamoso.co.za/index.html"
 print(my_url)
 print(my_url.removeprefix("https://"))
 print(my_url.removesuffix(".html"))
+print(my_url.replace(".html",".HTMX"))

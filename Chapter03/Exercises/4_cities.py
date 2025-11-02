@@ -1,7 +1,7 @@
-cities = ["london", "paris", "new york", "helsinki"]
+cities = ["london", "paris", "new york", "helsinki", "Rio"]
 print(cities)
-# print(sorted(cities)) # keeps the origin order of the  list
-# print(cities)
+print(sorted(cities)) # keeps the origin order of the  list
+print(cities)
 
 cities.reverse()
 print(cities)
@@ -13,5 +13,7 @@ print(cities)
 cities.sort() # changes the order of the original list
 print(cities)
 print(cities[-4])
+cities.sort()
+print(cities)
 
 

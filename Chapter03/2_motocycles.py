@@ -59,3 +59,6 @@ print(cars)
 
 #  FIND THE LENGTH OF LIST
 print((f"length of the list: {len(cars)}"))
+
+cars.insert(22, "tesla")
+print(cars)

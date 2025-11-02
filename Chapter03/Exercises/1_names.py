@@ -1,5 +1,6 @@
 names = ["vusi", "tshepiso", "naledi", "kgosi"]
 
+# ACCESS ITEMS IN LIST USING INDEX VALUE
 family = f"Family Members:\n\t{names[0].title()}\n\t{names[1]}"
 family += f"\n\t{names[2].title()}\n\t{names[3]}"
 print(family)
@@ -18,10 +19,11 @@ print(f"I love {cars[0]}")
 print(f"I love {cars[1]}")
 print(f"I love {cars[2]}")
 
+
 def print_guest_list():
     print("___________________________\n")
     for name in names:
-        print(f"{name} is invited")
+        print(f"{name.title()} is invited")
     print("___________________________")
     
 print_guest_list()    
