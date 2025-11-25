@@ -21,10 +21,10 @@ else:
 # Otherwise, if age is less than 18: prints admission is $25
 # Otherwise (age 18 or older): prints admission is $40
 
-
-
-# In this example: Since age is 12, it skips the first condition (12 is not less than 4), matches the second condition (12 is less than 18), and outputs: "Your admission cost is $25."
-# This is a common pricing structure where children get in free, minors pay a reduced rate, and adults pay full price
+# In this example: Since age is 12, it skips the first condition (12 is not less than 4),
+# matches the second condition (12 is less than 18), and outputs: "Your admission cost is $25."
+# This is a common pricing structure where children get in free, minors pay a reduced rate, 
+# and adults pay full price
 # =================================================================================
 age = 12
 if age < 4:
